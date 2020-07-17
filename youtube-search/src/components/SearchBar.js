@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class SearchBar extends React.Component{
 state = {term: ''};
 
@@ -15,7 +16,7 @@ onFormSubmit = event => {
     render() {
 
         return (
-        <div className="ui segement search-bar">
+        <div className="ui segment search-bar">
            <form onSubmit={this.onFormSubmit} className="ui form">
                <div className="field">
                    <label>Video Search</label>
